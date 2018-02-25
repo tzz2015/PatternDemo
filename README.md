@@ -10,17 +10,13 @@
 
 项目参考
 http://blog.csdn.net/guiying712/article/details/55213884
+ </br>
+ </br>
+
 ![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201212.png)
+![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201827.png)
+![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-0.png)
+![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-1.png)
 
 
- </br>
-    ![Alt text](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201212.png)
 
-  </br>
-     ![Alt text](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201827.png)
-
-  </br>
-     ![Alt text](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-0.png)
-
- </br>
-      ![Alt text](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-1.png)
