@@ -39,6 +39,10 @@ public class MainActivity extends BaseActivity {
         });*/
     }
 
+    /**
+     * 在library中 使用R2 并且不能使用switch语句
+     * @param view
+     */
     @OnClick({R2.id.bt_button1, R2.id.bt_button2,R2.id.bt_button3})
     public void onViewClicked(View view) {
         int i = view.getId();
@@ -47,8 +51,10 @@ public class MainActivity extends BaseActivity {
         }else if(i==R.id.bt_button2){
             UIHelper.openBHome();
         }else if(i==R.id.bt_button3){
-            BaseFragment fragment = (BaseFragment) ARouter.getInstance().build("/test/fragment").navigation();
-            addFragment(fragment,R.id.fl_content);
+            BaseFragment fragment = UIHelper.getBFragment();
+            if(fragment!=null&&!fragment.isAdded()){
+                addFragment(fragment,R.id.fl_content);
+            }
         }
 
     }

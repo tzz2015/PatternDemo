@@ -1,6 +1,7 @@
 package com.hangzhou.h890.common_library.utils;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.hangzhou.h890.common_library.base.BaseFragment;
 
 /**
  * 创建 by lyf on 2018/2/25.
@@ -25,5 +26,11 @@ public class UIHelper {
      */
     public static void openBHome(){
         ARouter.getInstance().build(Constant.B_HOME).navigation();
+    }
+    /**
+     * B模块fragment
+     */
+    public static BaseFragment getBFragment(){
+        return (BaseFragment) ARouter.getInstance().build(Constant.TEST_FRAGMENT).navigation();
     }
 }
