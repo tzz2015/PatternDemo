@@ -14,13 +14,13 @@ http://blog.csdn.net/guiying712/article/details/55213884
 
 
  </br>
-    ![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201212.png)
+    ![Alt text](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201212.png)
 
   </br>
-     ![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201827.png)
+     ![Alt text](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201827.png)
 
   </br>
-     ![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-0.png)
+     ![Alt text](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-0.png)
 
  </br>
-      ![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-1.png)
+      ![Alt text](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-1.png)
