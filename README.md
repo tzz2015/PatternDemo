@@ -10,7 +10,7 @@
 
 项目参考
 http://blog.csdn.net/guiying712/article/details/55213884
-![image](https://github.com/tzz2015/commonLib/blob/master/file/Screenshot.png)
+![image](https://github.com/tzz2015/PatternDemo/blob/master/img/QQ20180225-201212.png)
 
 
  </br>
