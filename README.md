@@ -8,6 +8,9 @@
 
 经过组件化架构，可以将每个组件单独做为一个app开发，有可以组合不同的组件进行开发。
 
+### 是否进行模块化开发 控制开关
+isModule=false/true
+
 项目参考
 http://blog.csdn.net/guiying712/article/details/55213884
  </br>
