@@ -20,6 +20,8 @@ import butterknife.OnClick;
 @Route(path = Constant.MAIN_HOME)
 public class MainActivity extends BaseActivity {
 
+    private BaseFragment fragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,20 +43,22 @@ public class MainActivity extends BaseActivity {
 
     /**
      * 在library中 使用R2 并且不能使用switch语句
+     *
      * @param view
      */
-    @OnClick({R2.id.bt_button1, R2.id.bt_button2,R2.id.bt_button3})
+    @OnClick({R2.id.bt_button1, R2.id.bt_button2, R2.id.bt_button3})
     public void onViewClicked(View view) {
         int i = view.getId();
-        if(i==R.id.bt_button1){
+        if (i == R.id.bt_button1) {
             UIHelper.openAHome();
-        }else if(i==R.id.bt_button2){
+        } else if (i == R.id.bt_button2) {
             UIHelper.openBHome();
-        }else if(i==R.id.bt_button3){
-            BaseFragment fragment = UIHelper.getBFragment();
-            if(fragment!=null&&!fragment.isAdded()){
-                addFragment(fragment,R.id.fl_content);
+        } else if (i == R.id.bt_button3) {
+            if (fragment == null) {
+                fragment = UIHelper.getBFragment();
+                addFragment(fragment, R.id.fl_content);
             }
+
         }
 
     }

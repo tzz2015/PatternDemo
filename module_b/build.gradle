@@ -39,7 +39,9 @@ android {
             }
         }
     }
-
+    android.dataBinding {
+        enabled = true
+    }
     buildTypes {
         release {
             buildConfigField "boolean", "LOG_DEBUG", "true"
