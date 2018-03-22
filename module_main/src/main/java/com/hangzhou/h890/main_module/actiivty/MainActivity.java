@@ -39,6 +39,7 @@ public class MainActivity extends BaseActivity {
                 UIHelper.openBHome();
             }
         });*/
+
     }
 
     /**

@@ -41,6 +41,5 @@ public class MainActivity extends BaseActivity {
 
         viewDataBinding.setUser(new User("我是哈哈哈哈"));
 
-
     }
 }
